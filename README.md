@@ -15,6 +15,8 @@ Some things I've done:
 - [aws-cloudformation-vpc-3tier](https://github.com/sukeshavula/aws-cloudformation-vpc-3tier): VPC + ALB + Auto Scaling + RDS in one CloudFormation template
 - [terraform-aws-infra](https://github.com/sukeshavula/terraform-aws-infra): a similar setup in Terraform, with reusable modules and S3/DynamoDB remote state
 - [k8s-multi-container-app](https://github.com/sukeshavula/k8s-multi-container-app): Flask + Redis on Kubernetes with Ingress, persistent storage and failure scenarios
+- [jenkins-multibranch-pipeline](https://github.com/sukeshavula/jenkins-multibranch-pipeline): multibranch Jenkins pipeline (branches, PRs, tags) with a shared library, SonarQube quality gate, Nexus, approvals and auto-rollback; Jenkins itself configured as code
+- [monitoring-stack](https://github.com/sukeshavula/monitoring-stack): Prometheus, Alertmanager and Grafana with provisioned dashboards and alert rules for hosts, containers and endpoints
 
 ### Contact
 
