@@ -1,41 +1,23 @@
-### Hi, I'm Sukesh 👋
+## Sukesh Avula
 
-**Senior Platform Engineer · AWS Cloud & DevOps · Bengaluru, India**
+Platform engineer in Bengaluru. I've spent the last ~5.5 years running AWS infrastructure, most recently as Senior Lead – Platform at Aparajitha Corporate Services, looking after the AWS setup behind a compliance product used by 2,000+ people.
 
-I build and run secure, cost-efficient infrastructure on AWS. Over 5.5+ years I've migrated production MySQL databases to AWS with 99.9% uptime, built Jenkins CI/CD pipelines that increased deployment frequency by 35%, and cut monthly AWS spend by 30%.
+Day to day that means EC2/VPC/IAM/RDS, Jenkins pipelines (Maven, Nexus, GitHub), CloudFormation, a lot of Linux, and keeping the AWS bill under control.
 
-**Currently:** Senior Lead – Platform at Aparajitha Corporate Services, running AWS infrastructure for a compliance platform with 2,000+ active users.
-**Learning in public:** Terraform and Kubernetes. The repos below are hands-on labs I build and deploy myself.
+A few things I've done at work:
+- Moved MySQL 5.7 and legacy apps onto AWS (8.0 on RDS) using DMS, without breaking uptime (99.9%)
+- Cut monthly AWS spend by ~30% with Reserved Instances, rightsizing and budgets
+- Reworked our Jenkins CI/CD, and deployments went up by ~35%
+- Tightened IAM and access controls, and security incidents dropped by ~25%
 
----
+### What's here
 
-#### 🧰 Stack I use in production
+Work code stays at work, so these repos are my own labs. I'm using them to get properly hands-on with Terraform and Kubernetes, and to rebuild patterns I already use in CloudFormation.
 
-| Area | Tools |
-|---|---|
-| AWS | EC2 · VPC · IAM · S3 · RDS · Route 53 · Lambda · CloudWatch · CloudTrail · KMS · Transit Gateway |
-| Delivery & IaC | Jenkins · Maven · Nexus · Git / GitHub · CloudFormation · Docker |
-| Migration & data | AWS DMS · MySQL · MongoDB · Backup & DR |
-| Operations | Linux (Ubuntu, CentOS, Amazon Linux) · Bash · Nginx / Apache / Tomcat · Prometheus · Grafana |
-| Learning now | Terraform · Kubernetes · GitHub Actions |
+- [aws-cloudformation-vpc-3tier](https://github.com/sukeshavula/aws-cloudformation-vpc-3tier): VPC + ALB + Auto Scaling + RDS in one CloudFormation template
+- [terraform-aws-infra](https://github.com/sukeshavula/terraform-aws-infra): a similar setup in Terraform, with modules and S3/DynamoDB remote state
+- [k8s-multi-container-app](https://github.com/sukeshavula/k8s-multi-container-app): a small Flask + Redis app on Minikube that I use to break things and see what happens
 
-#### 📂 Projects
+### Contact
 
-| Repo | What it shows |
-|---|---|
-| [aws-cloudformation-vpc-3tier](https://github.com/sukeshavula/aws-cloudformation-vpc-3tier) | Production-style 3-tier AWS network (VPC, ALB, Auto Scaling, encrypted RDS) in one CloudFormation template, with CI linting |
-| [terraform-aws-infra](https://github.com/sukeshavula/terraform-aws-infra) | The same kind of platform in Terraform: reusable modules, S3 remote state with DynamoDB locking, and plan checks in GitHub Actions |
-| [k8s-multi-container-app](https://github.com/sukeshavula/k8s-multi-container-app) | A Flask + Redis app on Kubernetes with Ingress and persistent storage, plus notes from failure testing |
-
-#### 📈 Results from production work
-
-- **30%** lower monthly AWS spend (Reserved Instances, rightsizing, Budgets)
-- **99.9%** uptime through MySQL 5.7 → 8.0 and application migrations (AWS DMS)
-- **35%** more frequent deployments after rebuilding CI/CD on Jenkins
-- **25%** fewer security incidents after IAM and access-control hardening
-
-#### 📫 Contact
-
-- Portfolio: *add your portfolio link here*
-- LinkedIn: *add your LinkedIn URL here*
-- Email: avulasukeshaws@gmail.com
+avulasukeshaws@gmail.com
