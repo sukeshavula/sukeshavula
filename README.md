@@ -17,6 +17,10 @@ Some things I've done:
 - [k8s-multi-container-app](https://github.com/sukeshavula/k8s-multi-container-app): Flask + Redis on Kubernetes with Ingress, persistent storage and failure scenarios
 - [jenkins-multibranch-pipeline](https://github.com/sukeshavula/jenkins-multibranch-pipeline): multibranch Jenkins pipeline (branches, PRs, tags) with a shared library, SonarQube quality gate, Nexus, approvals and auto-rollback; Jenkins itself configured as code
 - [monitoring-stack](https://github.com/sukeshavula/monitoring-stack): Prometheus, Alertmanager and Grafana with provisioned dashboards and alert rules for hosts, containers and endpoints
+- [eks-gitops-platform](https://github.com/sukeshavula/eks-gitops-platform): EKS with Terraform (IRSA, KMS, Spot node group), apps and add-ons deployed by Argo CD from Git with Helm
+- [github-actions-ecs-deploy](https://github.com/sukeshavula/github-actions-ecs-deploy): GitHub Actions to ECS Fargate via OIDC, Trivy image scan, CodeDeploy blue/green canary with automatic rollback
+- [aws-lambda-automation](https://github.com/sukeshavula/aws-lambda-automation): scheduled Python Lambdas for EC2 office-hours scheduling, EBS snapshot cleanup and a weekly cost report to Slack
+- [ansible-server-setup](https://github.com/sukeshavula/ansible-server-setup): Ansible roles for hardened Ubuntu servers (SSH, ufw, fail2ban), nginx + Tomcat, MySQL with Vault, node_exporter, EC2 dynamic inventory
 
 ### Contact
 
